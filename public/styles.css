@@ -1,0 +1,41 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+}
+.main-heading {
+}
+#latitude {
+  align-self: flex-start;
+}
+#longitude {
+  align-self: flex-start;
+}
+#dateAndTime {
+  align-self: flex-start;
+}
+input {
+  margin: 16px 0 16px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 16px;
+  background-color: #aaa;
+}
+.get-location-btn {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 16px;
+  background-color: rgb(1, 63, 186);
+  color: #fff;
+  font-weight: 700;
+}
